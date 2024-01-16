@@ -276,20 +276,21 @@ body {
   display: flex;
   align-items: center;
 }
+.offer-section-row__item + .offer-section-row__item {
+  margin-left: 10px;
+}
 .offer-section-row + .offer-section-row {
   margin-top: 10px;
-}
-.offer-section-row img {
-  max-width: 250px;
-}
-.offer-section-row img + img {
-  margin-left: 10px;
 }
 .offer-section-row .left-corner {
   border-radius: 0px 50px;
   overflow: hidden;
+  max-width: 250px;
+  max-height: 250px;
 }
 .offer-section-row .right-corner {
   border-radius: 50px 0px;
   overflow: hidden;
+  max-width: 250px;
+  max-height: 250px;
 }

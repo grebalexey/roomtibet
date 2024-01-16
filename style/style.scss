@@ -332,27 +332,36 @@ body{
         display: flex;
         align-items: center;
 
+        &__item + &__item{
+            margin-left: 10px;
+        }
+
         & + &{
             margin-top: 10px;
         }
 
-        img{
-            max-width: 250px;
+        // img{
+        //     max-width: 250px;
+        //     max-height: 250px;
             
-        }
+        // }
 
-        img + img {
-            margin-left: 10px;
-        }
+        // img + img {
+        //     margin-left: 10px;
+        // }
 
         .left-corner{
             border-radius: 0px 50px;
             overflow: hidden;
+            max-width: 250px;
+            max-height: 250px;
         }
         
         .right-corner{
             border-radius: 50px 0px;
             overflow: hidden;
+            max-width: 250px;
+            max-height: 250px;
         }
     }
 }
